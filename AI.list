@@ -1,0 +1,32 @@
+# ================= AI 专项分流 =================
+# 【Claude】
+DOMAIN,api.claude.ai
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-KEYWORD,claude
+
+# 【Grok & X.ai】
+DOMAIN,api.x.ai
+DOMAIN,api.grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-KEYWORD,grok
+
+# 【Gemini】
+DOMAIN,alkalimira.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,gemini.google.com
+
+# 【ChatGPT & OpenAI】
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+
+# 【AI 辅助服务】
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,usebutton.com
+DOMAIN-SUFFIX,unyt.com
