@@ -1,132 +1,41 @@
-# ===========================
-# 海外金融直连规则集
-# 更新：补全常用域名
-# ===========================
-
-# 【加密货币交易所】
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.co
-DOMAIN-SUFFIX,binance.us
-DOMAIN-SUFFIX,binance.vision
-DOMAIN-SUFFIX,binanceapi.com
-DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,okx-dns.com
-DOMAIN-SUFFIX,okx-p2p.com
-DOMAIN-SUFFIX,coinbase.com          # 补充
-DOMAIN-SUFFIX,coinbase-prime.com    # 补充
-DOMAIN-SUFFIX,cbhq.com             # Coinbase 补充
-DOMAIN-SUFFIX,kraken.com            # 补充
-DOMAIN-SUFFIX,krakenfutures.com     # 补充
-DOMAIN-SUFFIX,bybit.com             # 补充
-DOMAIN-SUFFIX,bybit-exchange.com    # 补充
-DOMAIN-SUFFIX,bitget.com            # 补充
-DOMAIN-SUFFIX,gate.io               # 补充
-DOMAIN-SUFFIX,gateio.io             # 补充
-DOMAIN-SUFFIX,huobi.com             # 补充
-DOMAIN-SUFFIX,htx.com               # 火币新域名 补充
-DOMAIN-SUFFIX,mexc.com              # 补充
-DOMAIN-SUFFIX,mexc-global.com       # 补充
-
-# 【Web3 钱包】
-DOMAIN-SUFFIX,onekey.so
-DOMAIN-SUFFIX,onekey.network
-DOMAIN-SUFFIX,onekeycard.com
-DOMAIN-SUFFIX,metamask.io           # 补充
-DOMAIN-SUFFIX,metamask.app          # 补充
-DOMAIN-SUFFIX,phantom.app           # 补充
-DOMAIN-SUFFIX,trustwallet.com       # 补充
-DOMAIN-SUFFIX,ledger.com            # 补充
-DOMAIN-SUFFIX,trezor.io             # 补充
-DOMAIN-SUFFIX,rabby.io              # 补充
-
-# 【区块链基础设施】
-DOMAIN-SUFFIX,infura.io
-DOMAIN-SUFFIX,alchemy.com
-DOMAIN-SUFFIX,alchemyapi.io
-DOMAIN-SUFFIX,etherscan.io
-DOMAIN-SUFFIX,ethereum.org
-DOMAIN-SUFFIX,solana.com
-DOMAIN-SUFFIX,solscan.io
-DOMAIN-SUFFIX,rpcpool.com
-DOMAIN-SUFFIX,blockchain.info
-DOMAIN-SUFFIX,blockstream.info
-DOMAIN-SUFFIX,mempool.space
-DOMAIN-SUFFIX,btc.com
-DOMAIN-SUFFIX,bscscan.com
-DOMAIN-SUFFIX,polygon.technology
-DOMAIN-SUFFIX,polygonscan.com
-DOMAIN-SUFFIX,tronscan.org
-DOMAIN-SUFFIX,trongrid.io
-DOMAIN-SUFFIX,walletconnect.org
-DOMAIN-SUFFIX,walletconnect.com
-DOMAIN-SUFFIX,arbitrum.io
-DOMAIN-SUFFIX,optimism.io
-DOMAIN-SUFFIX,arbiscan.io
-DOMAIN-SUFFIX,ankr.com
-DOMAIN-SUFFIX,quicknode.com
-DOMAIN-SUFFIX,chainlist.org
-DOMAIN-SUFFIX,coingecko.com         # 补充
-DOMAIN-SUFFIX,coinmarketcap.com     # 补充
-DOMAIN-SUFFIX,defillama.com         # 补充
-DOMAIN-SUFFIX,dexscreener.com       # 补充
-
-# 【跨境支付】
-DOMAIN-SUFFIX,wise.com
-DOMAIN-SUFFIX,transferwise.com
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,stripe.network
-DOMAIN-SUFFIX,adyen.com
-DOMAIN-SUFFIX,checkout.com
-DOMAIN-SUFFIX,revolut.com           # 补充
-DOMAIN-SUFFIX,monzo.com             # 补充
-DOMAIN-SUFFIX,n26.com               # 补充
-DOMAIN-SUFFIX,paysend.com           # 补充
-DOMAIN-SUFFIX,remitly.com           # 补充
-DOMAIN-SUFFIX,worldremit.com        # 补充
-DOMAIN-SUFFIX,xe.com                # 补充 汇率查询
+# 资金安全直连规则集
+# 适用于香港/境外银行、保险、券商
+# 这些域名直连更安全，避免代理节点记录金融数据
 
 # 【香港银行】
-DOMAIN-SUFFIX,hsbc.com
 DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.com
 DOMAIN-SUFFIX,hsbcnet.com
+DOMAIN-SUFFIX,hsbc-pay-me.com
+DOMAIN-KEYWORD,hsbc
 DOMAIN-SUFFIX,bochk.com
 DOMAIN-SUFFIX,bocgroup.com
-DOMAIN-SUFFIX,standardchartered.com
-DOMAIN-SUFFIX,sc.com
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,bocionline.com
 DOMAIN-SUFFIX,hangseng.com
-DOMAIN-SUFFIX,dbs.com
-DOMAIN-SUFFIX,dbs.com.hk
 DOMAIN-SUFFIX,citibank.com.hk
 DOMAIN-SUFFIX,citi.com
-DOMAIN-SUFFIX,eastwestbank.com      # 补充 华美银行
-DOMAIN-SUFFIX,ocbc.com              # 补充 华侨银行
-DOMAIN-SUFFIX,uob.com               # 补充 大华银行
+DOMAIN-SUFFIX,standardchartered.com
+DOMAIN-SUFFIX,sc.com
+DOMAIN-SUFFIX,sc.com.hk
 
-# 【券商及投资平台】
+# 【香港保险】
+DOMAIN-SUFFIX,prudential.com.hk
+DOMAIN-SUFFIX,aia.com.hk
+DOMAIN-SUFFIX,manulife.com.hk
+DOMAIN-SUFFIX,sunlife.com.hk
+DOMAIN-SUFFIX,fwd.com.hk
+
+# 【境内可访问券商】
 DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,futuhk.com
 DOMAIN-SUFFIX,futu5.com
 DOMAIN-SUFFIX,itiger.com
 DOMAIN-SUFFIX,tigerbrokers.com
 DOMAIN-SUFFIX,longbridgeapp.com
-DOMAIN-SUFFIX,ibkr.com              # 补充 盈透证券
-DOMAIN-SUFFIX,interactivebrokers.com # 补充
-DOMAIN-SUFFIX,schwab.com            # 补充 嘉信理财
-DOMAIN-SUFFIX,fidelity.com          # 补充 富达
-DOMAIN-SUFFIX,vanguard.com          # 补充 先锋
-DOMAIN-SUFFIX,tradingview.com
-DOMAIN-SUFFIX,bloomberg.com
+DOMAIN-SUFFIX,eastmoney.com
+DOMAIN-SUFFIX,10jqka.com.cn
+DOMAIN-SUFFIX,wind.com.cn
 
-# 【香港保险】
-DOMAIN-SUFFIX,prudential.com.hk
-DOMAIN-SUFFIX,aia.com.hk
-DOMAIN-SUFFIX,manulife.com.hk
-DOMAIN-SUFFIX,sunlife.com.hk        # 补充 永明金融
-DOMAIN-SUFFIX,fwd.com.hk            # 补充 富卫保险
+# 【汇率工具】
+DOMAIN-SUFFIX,xe.com
