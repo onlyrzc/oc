@@ -1,32 +1,95 @@
 # ================= AI 专项分流 =================
-# 【Claude】
+
+# 【Claude / Anthropic】
 DOMAIN,api.claude.ai
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-KEYWORD,claude
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic-cdn.com
 
-# 【Grok & X.ai】
+# 【Grok / xAI】
 DOMAIN,api.x.ai
 DOMAIN,api.grok.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
-DOMAIN-KEYWORD,grok
+DOMAIN-SUFFIX,grok.x.ai
 
-# 【Gemini】
+# 【Gemini / Google AI】
 DOMAIN,alkalimira.googleapis.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,gemini.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,makersuite.google.com
 
-# 【ChatGPT & OpenAI】
+# 【ChatGPT / OpenAI】
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,openaiapi.com
+DOMAIN-SUFFIX,openai.azure.com
+DOMAIN-SUFFIX,auth0.openai.com
 
-# 【AI 辅助服务】
+# 【Copilot / Microsoft AI】
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.azure.com
+DOMAIN-SUFFIX,sydney.bing.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+
+# 【Perplexity】
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx-res.cloudfront.net
+
+# 【Midjourney】
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,mjargus.com
+
+# 【Stability AI】
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,dreamstudio.ai
+DOMAIN-SUFFIX,stablediffusionapi.com
+
+# 【Runway】
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runway.com
+
+# 【Suno AI】
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+
+# 【Pika】
+DOMAIN-SUFFIX,pika.art
+
+# 【HuggingFace】
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,huggingface.com
+
+# 【Cohere】
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+
+# 【Mistral】
+DOMAIN-SUFFIX,mistral.ai
+
+# 【Meta AI】
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,llama.meta.com
+
+# 【Character.AI】
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,characterai.io
+
+# 【POE】
+DOMAIN-SUFFIX,poe.com
+
+# 【You.com】
+DOMAIN-SUFFIX,you.com
+
+# 【AI 基础设施】
 DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,statsigapi.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,usebutton.com
-DOMAIN-SUFFIX,unyt.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,vercel.com
