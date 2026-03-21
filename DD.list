@@ -1,151 +1,132 @@
-# 【Binance / 币安】
+# ===========================
+# 海外金融直连规则集
+# 更新：补全常用域名
+# ===========================
+
+# 【加密货币交易所】
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.zh
-DOMAIN-SUFFIX,bnappzh.co
-DOMAIN-SUFFIX,binance.charity
-DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.co
-DOMAIN-SUFFIX,binance.gg
-DOMAIN-SUFFIX,binance.hongkong
-DOMAIN-SUFFIX,binance.net
-DOMAIN-SUFFIX,binance.org
 DOMAIN-SUFFIX,binance.us
 DOMAIN-SUFFIX,binance.vision
 DOMAIN-SUFFIX,binanceapi.com
 DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,binancegcap.com
-DOMAIN-SUFFIX,binancev.com
-DOMAIN-SUFFIX,bnbdzh.com
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,saas-api.com
-
-  # 【OKX / 欧易】
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okx-dns.com
-DOMAIN-SUFFIX,okx-dns1.com
 DOMAIN-SUFFIX,okx-p2p.com
+DOMAIN-SUFFIX,coinbase.com          # 补充
+DOMAIN-SUFFIX,coinbase-prime.com    # 补充
+DOMAIN-SUFFIX,cbhq.com             # Coinbase 补充
+DOMAIN-SUFFIX,kraken.com            # 补充
+DOMAIN-SUFFIX,krakenfutures.com     # 补充
+DOMAIN-SUFFIX,bybit.com             # 补充
+DOMAIN-SUFFIX,bybit-exchange.com    # 补充
+DOMAIN-SUFFIX,bitget.com            # 补充
+DOMAIN-SUFFIX,gate.io               # 补充
+DOMAIN-SUFFIX,gateio.io             # 补充
+DOMAIN-SUFFIX,huobi.com             # 补充
+DOMAIN-SUFFIX,htx.com               # 火币新域名 补充
+DOMAIN-SUFFIX,mexc.com              # 补充
+DOMAIN-SUFFIX,mexc-global.com       # 补充
 
-# 【OneKey】
+# 【Web3 钱包】
 DOMAIN-SUFFIX,onekey.so
 DOMAIN-SUFFIX,onekey.network
 DOMAIN-SUFFIX,onekeycard.com
-DOMAIN-SUFFIX,onekey.admin
+DOMAIN-SUFFIX,metamask.io           # 补充
+DOMAIN-SUFFIX,metamask.app          # 补充
+DOMAIN-SUFFIX,phantom.app           # 补充
+DOMAIN-SUFFIX,trustwallet.com       # 补充
+DOMAIN-SUFFIX,ledger.com            # 补充
+DOMAIN-SUFFIX,trezor.io             # 补充
+DOMAIN-SUFFIX,rabby.io              # 补充
 
-# 【Wise】
-DOMAIN-SUFFIX,wise.com
-DOMAIN-SUFFIX,transferwise.com
-DOMAIN-SUFFIX,wise.com.edgekey.net
-
-
-# 【Ethereum / 以太坊相关】
+# 【区块链基础设施】
 DOMAIN-SUFFIX,infura.io
 DOMAIN-SUFFIX,alchemy.com
 DOMAIN-SUFFIX,alchemyapi.io
 DOMAIN-SUFFIX,etherscan.io
-DOMAIN-SUFFIX,eth.link
 DOMAIN-SUFFIX,ethereum.org
-
-# 【Solana / 索拉纳】
 DOMAIN-SUFFIX,solana.com
 DOMAIN-SUFFIX,solscan.io
 DOMAIN-SUFFIX,rpcpool.com
-DOMAIN-SUFFIX,genesysgo.net
-
-  # 【Bitcoin / 比特币 & 常用区块链浏览器】
 DOMAIN-SUFFIX,blockchain.info
 DOMAIN-SUFFIX,blockstream.info
 DOMAIN-SUFFIX,mempool.space
 DOMAIN-SUFFIX,btc.com
-
-  # 【BNB Chain / 币安智能链】
-DOMAIN-SUFFIX,binance.org
 DOMAIN-SUFFIX,bscscan.com
-DOMAIN-SUFFIX,bsc-dataseed.binance.org
-
-  # 【Polygon / 马蹄】
 DOMAIN-SUFFIX,polygon.technology
 DOMAIN-SUFFIX,polygonscan.com
-DOMAIN-SUFFIX,maticvigil.com
-
-  # 【TRON / 波场】
 DOMAIN-SUFFIX,tronscan.org
 DOMAIN-SUFFIX,trongrid.io
-DOMAIN-SUFFIX,tronstack.io
-
-  # 【WalletConnect / 钱包连接验证协议】
 DOMAIN-SUFFIX,walletconnect.org
 DOMAIN-SUFFIX,walletconnect.com
-DOMAIN-SUFFIX,registry.walletconnect.com
-
-  # 【Arbitrum / Optimism / L2 网络】
 DOMAIN-SUFFIX,arbitrum.io
 DOMAIN-SUFFIX,optimism.io
 DOMAIN-SUFFIX,arbiscan.io
-DOMAIN-SUFFIX,optimistic.etherscan.io
-
-  # 【IP、节点发现及其他公共解析】
-DOMAIN-SUFFIX,nodes.jup.ag
 DOMAIN-SUFFIX,ankr.com
-DOMAIN-SUFFIX,getblock.io
 DOMAIN-SUFFIX,quicknode.com
 DOMAIN-SUFFIX,chainlist.org
+DOMAIN-SUFFIX,coingecko.com         # 补充
+DOMAIN-SUFFIX,coinmarketcap.com     # 补充
+DOMAIN-SUFFIX,defillama.com         # 补充
+DOMAIN-SUFFIX,dexscreener.com       # 补充
 
+# 【跨境支付】
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,adyen.com
+DOMAIN-SUFFIX,checkout.com
+DOMAIN-SUFFIX,revolut.com           # 补充
+DOMAIN-SUFFIX,monzo.com             # 补充
+DOMAIN-SUFFIX,n26.com               # 补充
+DOMAIN-SUFFIX,paysend.com           # 补充
+DOMAIN-SUFFIX,remitly.com           # 补充
+DOMAIN-SUFFIX,worldremit.com        # 补充
+DOMAIN-SUFFIX,xe.com                # 补充 汇率查询
 
-# 【HSBC / 汇丰集团】（包含香港及全球各地区 App 鉴权）
+# 【香港银行】
 DOMAIN-SUFFIX,hsbc.com
 DOMAIN-SUFFIX,hsbc.com.hk
-DOMAIN-SUFFIX,hsbc.com.cn
 DOMAIN-SUFFIX,hsbcnet.com
-DOMAIN-SUFFIX,hsbc.com.sg
-DOMAIN-SUFFIX,hsbc.co.uk
-DOMAIN-SUFFIX,hsbc.us
-DOMAIN-SUFFIX,hsbc.ca
-DOMAIN-SUFFIX,hsbc.com.au
-DOMAIN-SUFFIX,hsbc-pay-me.com
-DOMAIN-KEYWORD,hsbc
-
-# 【BOC HK / 中银香港】
 DOMAIN-SUFFIX,bochk.com
 DOMAIN-SUFFIX,bocgroup.com
-DOMAIN-SUFFIX,boc.cn
-DOMAIN-SUFFIX,boci.com.hk
-DOMAIN-SUFFIX,bocionline.com
-
-# 【其他香港/海外主流银行】
 DOMAIN-SUFFIX,standardchartered.com
 DOMAIN-SUFFIX,sc.com
-DOMAIN-SUFFIX,sc.com.hk
 DOMAIN-SUFFIX,hangseng.com
 DOMAIN-SUFFIX,dbs.com
 DOMAIN-SUFFIX,dbs.com.hk
 DOMAIN-SUFFIX,citibank.com.hk
 DOMAIN-SUFFIX,citi.com
+DOMAIN-SUFFIX,eastwestbank.com      # 补充 华美银行
+DOMAIN-SUFFIX,ocbc.com              # 补充 华侨银行
+DOMAIN-SUFFIX,uob.com               # 补充 大华银行
 
-# 【股票、券商及基金平台】
-DOMAIN-SUFFIX,futunn.com  # 富途牛牛
+# 【券商及投资平台】
+DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,futuhk.com
 DOMAIN-SUFFIX,futu5.com
-DOMAIN-SUFFIX,itiger.com  # 老虎证券
+DOMAIN-SUFFIX,itiger.com
 DOMAIN-SUFFIX,tigerbrokers.com
-DOMAIN-SUFFIX,longbridgeapp.com # 长桥证券
-DOMAIN-SUFFIX,eastmoney.com # 东方财富
-DOMAIN-SUFFIX,10jqka.com.cn # 同花顺
-DOMAIN-SUFFIX,wind.com.cn # 万得
-DOMAIN-SUFFIX,bloomberg.com # 彭博（如需看实时行情可能需要代理，但在境内通常直连）
-DOMAIN-SUFFIX,tradingview.com # TradingView
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,ibkr.com              # 补充 盈透证券
+DOMAIN-SUFFIX,interactivebrokers.com # 补充
+DOMAIN-SUFFIX,schwab.com            # 补充 嘉信理财
+DOMAIN-SUFFIX,fidelity.com          # 补充 富达
+DOMAIN-SUFFIX,vanguard.com          # 补充 先锋
+DOMAIN-SUFFIX,tradingview.com
+DOMAIN-SUFFIX,bloomberg.com
 
-# 【保险类（香港常用）】
-DOMAIN-SUFFIX,prudential.com.hk # 保诚
-DOMAIN-SUFFIX,aia.com.hk # 友邦
-DOMAIN-SUFFIX,manulife.com.hk # 宏利
-
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,stripe.network
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-SUFFIX,adyen.com
-DOMAIN-SUFFIX,checkout.com
-   
+# 【香港保险】
+DOMAIN-SUFFIX,prudential.com.hk
+DOMAIN-SUFFIX,aia.com.hk
+DOMAIN-SUFFIX,manulife.com.hk
+DOMAIN-SUFFIX,sunlife.com.hk        # 补充 永明金融
+DOMAIN-SUFFIX,fwd.com.hk            # 补充 富卫保险
